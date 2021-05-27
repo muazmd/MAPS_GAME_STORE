@@ -27,7 +27,7 @@ if (isset($_POST["upload"])){
             $price = $_POST['price'];
             $genre =$_POST['genre'];
             
-         
+            echo $name, $price, $genre, $imgContent;
             // Insert image content into database 
             $insert = $db->query("INSERT into games (name,image,price,genre) VALUES ('$name','$imgContent','$price','$genre')"); 
              
