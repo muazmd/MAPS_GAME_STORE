@@ -207,8 +207,9 @@ footer a:hover {
                        
            <br />  
  <center>
-     <form method="post">
-         <div class="chbtn"><button name="checkout" class="btn btn-outline-success" >Proceed to Checkout</button></div>   
+ <form method="post">
+         <div class="chbtn"><button name="checkout" class="btn btn-outline-success" >Proceed to Checkout 
+         <i class="fas fa-shopping-cart"></i> <?php echo $_SESSION['counter'];  ?></button></div>   
          </form> </center> 
 
      
