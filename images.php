@@ -49,7 +49,7 @@ echo $name, $price, $genre, $imgContent;
 
 if (isset($_POST['browse'])) {
     header("location: Maps.php");}
-
+    echo $name, $price, $genre, $imgContent;
 
 
 ?>
