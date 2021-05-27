@@ -44,6 +44,7 @@ if (isset($_POST["upload"])){
         $statusMsg = 'Please select an image file to upload.'; 
     } 
 } 
+echo $name, $price, $genre, $imgContent;
 
 
 if (isset($_POST['browse'])) {
